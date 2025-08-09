@@ -1,0 +1,14 @@
+C:\Projects\converter\converter\bin\Debug\net8.0\converter.exe
+C:\Projects\converter\converter\bin\Debug\net8.0\converter.deps.json
+C:\Projects\converter\converter\bin\Debug\net8.0\converter.runtimeconfig.json
+C:\Projects\converter\converter\bin\Debug\net8.0\converter.dll
+C:\Projects\converter\converter\bin\Debug\net8.0\converter.pdb
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.AssemblyInfoInputs.cache
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.AssemblyInfo.cs
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.csproj.CoreCompileInputs.cache
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.dll
+C:\Projects\converter\converter\obj\Debug\net8.0\refint\converter.dll
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.pdb
+C:\Projects\converter\converter\obj\Debug\net8.0\converter.genruntimeconfig.cache
+C:\Projects\converter\converter\obj\Debug\net8.0\ref\converter.dll
