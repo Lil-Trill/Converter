@@ -93,16 +93,26 @@ internal class Program
     }
     private static List<string> TriplesNumbers(string places)
     {
-        int startIndex = places.Length;
         List<string> triples = new List<string>();
-        
-        while (startIndex > 0)
+        int endIndex = places.Length; // Начинаем с конца строки
+
+        // Пока индекс больше нуля
+        while (endIndex > 0)
         {
-            startIndex = Math.Max(0, startIndex - 3);
-            int length = 3;
-            triples.Add(places.Substring(startIndex, length));
-            
+            int startIndex = Math.Max(endIndex - 3, 0); // Определяем стартовый индекс подгруппы
+            int length = endIndex - startIndex; // Длина текущей подгруппы
+            triples.Insert(0, places.Substring(startIndex, length)); // Добавляем новую часть в начало списка
+            endIndex -= 3; // Переход к следующей группе
         }
+
+        triples.Reverse();
+        //while (startIndex > 0)
+        //{
+        //    startIndex = Math.Max(0, startIndex - 3);
+        //    int length = 3;
+        //    triples.Add(places.Substring(startIndex, length));
+
+        //}
         return triples;
     }
 }
